@@ -1,0 +1,18 @@
+.output h1 {
+  margin: 0;
+}
+
+.output__header {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.output__frame {
+  padding: 0;
+  width: 97.75vw;
+  height: 50vh;
+  border: none;
+  outline: none;
+}
