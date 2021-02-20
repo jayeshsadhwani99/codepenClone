@@ -9,6 +9,14 @@ function Editor({language, onChange}) {
     const [open, setOpen] = useState(true);
     function handleClick() {
         setOpen(prevOpen=> !prevOpen);
+        if(window.screen.width <= 600) {
+            let editor = document.getElementById(language);
+            if(editor.style.display == 'none') {
+                editor.style.display = 'block';
+            } else {
+                editor.style.display = 'none';
+            }
+        }
     }
 
     return (
